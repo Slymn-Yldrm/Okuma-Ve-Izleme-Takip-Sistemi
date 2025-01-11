@@ -1,0 +1,18 @@
+﻿<h2>Giriş Yap</h2>
+
+<form asp-action="GirisYap" method="post">
+    <div>
+        <label for="KullaniciAdi">Kullanıcı Adı</label>
+        <input type="text" id="KullaniciAdi" name="kullaniciAdi" required />
+    </div>
+    <div>
+        <label for="Sifre">Şifre</label>
+        <input type="password" id="Sifre" name="sifre" required />
+    </div>
+    <button type="submit">Giriş Yap</button>
+</form>
+
+@if (ViewBag.Hata != null)
+{
+    <p style="color:red;">@ViewBag.Hata</p>
+}
