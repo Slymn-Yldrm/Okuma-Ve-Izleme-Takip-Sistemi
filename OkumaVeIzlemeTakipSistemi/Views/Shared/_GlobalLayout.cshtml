@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Okuma ve İzleme Takip Sistemi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
+<body>
+    <div class="d-flex">
+        <div class="bg-dark text-white vh-100" style="width: 250px;">
+            <h4 class="text-center py-3 border-bottom">Menü</h4>
+            <ul class="nav flex-column px-3">
+                <li class="nav-item my-2">
+                    <a class="nav-link text-white d-inline-flex" asp-controller="Home" asp-action="Index">
+                        <span class="material-icons">
+                            home
+                        </span> <p class="pl-2">Ana Sayfa</p>
+                    </a>
+                </li>
+                <li class="nav-item my-2">
+                    <a class="nav-link text-white d-inline-flex" asp-controller="Kitap" asp-action="Index">
+                        <span class="material-icons">book</span> <p class="pl-2">Kitap</p>
+                    </a>
+                </li>
+                <li class="nav-item my-2">
+                    <a class="nav-link text-white d-inline-flex" asp-controller="DiziFilm" asp-action="Index">
+                        <span class="material-icons">movie</span> <p class="pl-2">Dizi-Film</p>
+                    </a>
+                </li>
+                <li class="nav-item my-2">
+                    <a class="nav-link text-white d-inline-flex" asp-controller="Profil" asp-action="Index">
+                        <span class="material-icons">person</span> <p class="pl-2">Profil</p>
+                    </a>
+                </li>
+                <li class="nav-item my-2">
+                    <a class="nav-link text-white d-inline-flex" asp-controller="Kullanici" asp-action="CikisYap">
+                        <span class="material-icons">logout</span> <p class="pl-2">Çıkış Yap</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex-grow-1 p-4">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
