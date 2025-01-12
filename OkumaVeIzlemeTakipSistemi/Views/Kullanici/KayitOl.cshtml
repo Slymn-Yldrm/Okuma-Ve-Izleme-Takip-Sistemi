@@ -1,19 +1,29 @@
 ﻿@model KullaniciModel
 
-<h2>Kayıt Ol</h2>
-
 <form asp-action="KayitOl" method="post">
-    <div>
-        <label for="KullaniciAdi">Kullanıcı Adı</label>
-        <input type="text" id="KullaniciAdi" name="KullaniciAdi" required />
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="text-center mb-4">Kayıt Ol</h2>
+                <form asp-action="KayitOl" method="post" class="border p-4 bg-light shadow">
+                    <div class="form-group mb-3">
+                        <label for="KullaniciAdi">Kullanıcı Adı</label>
+                        <input type="text" id="KullaniciAdi" name="KullaniciAdi" class="form-control" placeholder="Kullanıcı adınızı giriniz" required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="Eposta">E-posta</label>
+                        <input type="email" id="Eposta" name="Eposta" class="form-control" placeholder="E-posta adresinizi giriniz" required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="Sifre">Şifre</label>
+                        <input type="password" id="Sifre" name="Sifre" class="form-control" placeholder="Şifrenizi giriniz" required />
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Kayıt Ol</button>
+                    <p class="text-center mt-3">
+                        Zaten bir hesabınız var mı? <a asp-action="GirisYap" class="text-primary">Giriş Yap</a>
+                    </p>
+                </form>
+            </div>
+        </div>
     </div>
-    <div>
-        <label for="Eposta">E-posta</label>
-        <input type="email" id="Eposta" name="Eposta" required />
-    </div>
-    <div>
-        <label for="Sifre">Şifre</label>
-        <input type="password" id="Sifre" name="Sifre" required />
-    </div>
-    <button type="submit">Kayıt Ol</button>
 </form>

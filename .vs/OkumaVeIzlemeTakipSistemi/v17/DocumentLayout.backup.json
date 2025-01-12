@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|c:\\users\\ismai\\source\\repos\\okumaveizlemetakipsistemi\\okumaveizlemetakipsistemi\\context\\veritabanicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|solutionrelative:okumaveizlemetakipsistemi\\context\\veritabanicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|c:\\users\\ismai\\source\\repos\\okumaveizlemetakipsistemi\\okumaveizlemetakipsistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|solutionrelative:okumaveizlemetakipsistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VeritabaniContext.cs",
-              "DocumentMoniker": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Context\\VeritabaniContext.cs",
-              "RelativeDocumentMoniker": "OkumaVeIzlemeTakipSistemi\\Context\\VeritabaniContext.cs",
-              "ToolTip": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Context\\VeritabaniContext.cs",
-              "RelativeToolTip": "OkumaVeIzlemeTakipSistemi\\Context\\VeritabaniContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:44:54.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Program.cs",
               "RelativeDocumentMoniker": "OkumaVeIzlemeTakipSistemi\\Program.cs",
               "ToolTip": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Program.cs",
               "RelativeToolTip": "OkumaVeIzlemeTakipSistemi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:41:54.26Z",
+              "WhenOpened": "2025-01-12T11:11:18.166Z",
               "EditorCaption": ""
             }
           ]
