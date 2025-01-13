@@ -3,6 +3,7 @@
     Layout = "~/Views/Shared/_GlobalLayout.cshtml";
     ViewData["Title"] = "Tüm Kitaplar";
 }
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,7 +53,15 @@
                             <ul>
                                 @foreach (var kitap in Model.Where(k => k.Durum == "Okunacak"))
                                 {
-                                    <li>@kitap.Baslik</li>
+                                    <li>
+                                        <form asp-action="DurumGuncelle" method="post" class="d-inline">
+                                            <input type="hidden" name="id" value="@kitap.Id" />
+                                            <input type="hidden" name="durum" value="Okundu" />
+                                            <label>
+                                                <input type="checkbox" onchange="this.form.submit()" /> @kitap.Baslik
+                                            </label>
+                                        </form>
+                                    </li>
                                 }
                             </ul>
                         }
@@ -76,7 +85,15 @@
                             <ul>
                                 @foreach (var kitap in Model.Where(k => k.Durum == "Okundu"))
                                 {
-                                    <li>@kitap.Baslik</li>
+                                    <li>
+                                        <form asp-action="DurumGuncelle" method="post" class="d-inline">
+                                            <input type="hidden" name="id" value="@kitap.Id" />
+                                            <input type="hidden" name="durum" value="Okunacak" />
+                                            <label>
+                                                <input type="checkbox" checked onchange="this.form.submit()" /> @kitap.Baslik
+                                            </label>
+                                        </form>
+                                    </li>
                                 }
                             </ul>
                         }
@@ -88,34 +105,33 @@
                 </div>
             </div>
         </div>
-    </div>
+        <button class="floating-btn" data-bs-toggle="modal" data-bs-target="#ekleModal">+</button>
 
-    <button class="floating-btn" data-bs-toggle="modal" data-bs-target="#ekleModal">+</button>
+        <div class="modal fade" id="ekleModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel">Yeni Kitap Ekle</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" action="/Kitaplar/Ekle">
+                            <input type="hidden" name="Tur" value="Kitap">
+                            <div class="mb-3">
+                                <label for="kitapBaslik" class="form-label">Kitap Başlığı</label>
+                                <input type="text" class="form-control" id="kitapBaslik" name="Baslik" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="durum" class="form-label">Durum</label>
+                                <select class="form-select" id="durum" name="Durum">
+                                    <option value="Okunacak">Okunacak</option>
+                                    <option value="Okundu">Okundu</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Ekle</button>
+                        </form>
 
-    <div class="modal fade" id="ekleModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalLabel">Yeni Kitap Ekle</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form method="post" action="/Kitaplar/Ekle">
-                        <input type="hidden" name="Tur" value="Kitap">
-                        <div class="mb-3">
-                            <label for="kitapBaslik" class="form-label">Kitap Başlığı</label>
-                            <input type="text" class="form-control" id="kitapBaslik" name="Baslik" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="durum" class="form-label">Durum</label>
-                            <select class="form-select" id="durum" name="Durum">
-                                <option value="Okunacak">Okunacak</option>
-                                <option value="Okundu">Okundu</option>
-                            </select>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Ekle</button>
-                    </form>
-
+                    </div>
                 </div>
             </div>
         </div>

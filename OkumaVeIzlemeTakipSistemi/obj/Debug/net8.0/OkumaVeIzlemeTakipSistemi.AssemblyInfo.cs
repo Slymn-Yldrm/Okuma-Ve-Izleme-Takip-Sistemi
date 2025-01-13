@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OkumaVeIzlemeTakipSistemi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fdfe8f6e8f2a43517483658d0cbac95f5b5fd7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8f3b68413e9dcae8514af5afc742b4cb31cc74d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OkumaVeIzlemeTakipSistemi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OkumaVeIzlemeTakipSistemi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
