@@ -54,6 +54,12 @@ namespace OkumaVeIzlemeTakipSistemi.Controllers
                 var result = _passwordHasher.VerifyHashedPassword(kullanici, kullanici.Sifre, sifre);
                 if (result == PasswordVerificationResult.Success)
                 {
+                    Response.Cookies.Append("KullaniciId", kullanici.Id.ToString(), new CookieOptions
+                    {
+                        Expires = DateTime.Now.AddHours(1),
+                        HttpOnly = true,
+                        Secure = true
+                    });
                     return RedirectToAction("Index", "Home");
                 }
             }

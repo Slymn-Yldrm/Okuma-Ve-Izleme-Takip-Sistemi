@@ -26,16 +26,19 @@ namespace OkumaVeIzlemeTakipSistemi.Controllers
 
         public IActionResult Index()
         {
+            var kullaniciId = Request.Cookies["KullaniciId"];
+
             var model = new AnaSayfaViewModel
             {
-                OkunacakKitapSayisi = _context.Icerikler.Count(k => k.Durum == "Okunacak"),
-                OkunanKitapSayisi = _context.Icerikler.Count(k => k.Durum == "Okundu"),
-                IzlenecekDiziFilmSayisi = _context.Icerikler.Count(d => d.Durum == "Izlenecek"),
-                IzlenenDiziFilmSayisi = _context.Icerikler.Count(d => d.Durum == "Izlendi")
+                OkunacakKitapSayisi = _context.Icerikler.Count(k => k.Durum == "Okunacak" && k.KullaniciId == int.Parse(kullaniciId!)),
+                OkunanKitapSayisi = _context.Icerikler.Count(k => k.Durum == "Okundu" && k.KullaniciId == int.Parse(kullaniciId!)),
+                IzlenecekDiziFilmSayisi = _context.Icerikler.Count(d => d.Durum == "Izlenecek" && d.KullaniciId == int.Parse(kullaniciId!)),
+                IzlenenDiziFilmSayisi = _context.Icerikler.Count(d => d.Durum == "Izlendi" && d.KullaniciId == int.Parse(kullaniciId!))
             };
 
             return View(model);
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

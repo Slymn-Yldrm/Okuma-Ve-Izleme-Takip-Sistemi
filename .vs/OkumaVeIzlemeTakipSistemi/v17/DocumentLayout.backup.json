@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|solutionrelative:okumaveizlemetakipsistemi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|c:\\users\\ismai\\source\\repos\\okumaveizlemetakipsistemi\\okumaveizlemetakipsistemi\\context\\veritabanicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|solutionrelative:okumaveizlemetakipsistemi\\context\\veritabanicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|c:\\users\\ismai\\source\\repos\\okumaveizlemetakipsistemi\\okumaveizlemetakipsistemi\\controllers\\kitaplarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|solutionrelative:okumaveizlemetakipsistemi\\controllers\\kitaplarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|c:\\users\\ismai\\source\\repos\\okumaveizlemetakipsistemi\\okumaveizlemetakipsistemi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|solutionrelative:okumaveizlemetakipsistemi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|c:\\users\\ismai\\source\\repos\\okumaveizlemetakipsistemi\\okumaveizlemetakipsistemi\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F5DE2B-9BDD-4A5F-ABE4-1EB66A3C6181}|OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi.csproj|solutionrelative:okumaveizlemetakipsistemi\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VeritabaniContext.cs",
-              "DocumentMoniker": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Context\\VeritabaniContext.cs",
-              "RelativeDocumentMoniker": "OkumaVeIzlemeTakipSistemi\\Context\\VeritabaniContext.cs",
-              "ToolTip": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Context\\VeritabaniContext.cs",
-              "RelativeToolTip": "OkumaVeIzlemeTakipSistemi\\Context\\VeritabaniContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T15:23:19.682Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -45,22 +32,35 @@
               "RelativeDocumentMoniker": "OkumaVeIzlemeTakipSistemi\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Controllers\\HomeController.cs",
               "RelativeToolTip": "OkumaVeIzlemeTakipSistemi\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwBcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCMAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T15:21:23.287Z",
+              "WhenOpened": "2025-01-13T12:00:08.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KitaplarController.cs",
+              "DocumentMoniker": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Controllers\\KitaplarController.cs",
+              "RelativeDocumentMoniker": "OkumaVeIzlemeTakipSistemi\\Controllers\\KitaplarController.cs",
+              "ToolTip": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Controllers\\KitaplarController.cs",
+              "RelativeToolTip": "OkumaVeIzlemeTakipSistemi\\Controllers\\KitaplarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T11:54:41.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "OkumaVeIzlemeTakipSistemi\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "OkumaVeIzlemeTakipSistemi\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T14:49:09.973Z",
+              "Title": "KullaniciController.cs",
+              "DocumentMoniker": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Controllers\\KullaniciController.cs",
+              "RelativeDocumentMoniker": "OkumaVeIzlemeTakipSistemi\\Controllers\\KullaniciController.cs",
+              "ToolTip": "C:\\Users\\ismai\\source\\repos\\OkumaVeIzlemeTakipSistemi\\OkumaVeIzlemeTakipSistemi\\Controllers\\KullaniciController.cs",
+              "RelativeToolTip": "OkumaVeIzlemeTakipSistemi\\Controllers\\KullaniciController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T11:52:05.938Z",
               "EditorCaption": ""
             }
           ]
