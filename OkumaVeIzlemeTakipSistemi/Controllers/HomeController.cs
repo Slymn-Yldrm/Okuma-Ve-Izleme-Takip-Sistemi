@@ -32,8 +32,8 @@ namespace OkumaVeIzlemeTakipSistemi.Controllers
             {
                 OkunacakKitapSayisi = _context.Icerikler.Count(k => k.Durum == "Okunacak" && k.KullaniciId == int.Parse(kullaniciId!)),
                 OkunanKitapSayisi = _context.Icerikler.Count(k => k.Durum == "Okundu" && k.KullaniciId == int.Parse(kullaniciId!)),
-                IzlenecekDiziFilmSayisi = _context.Icerikler.Count(d => d.Durum == "Izlenecek" && d.KullaniciId == int.Parse(kullaniciId!)),
-                IzlenenDiziFilmSayisi = _context.Icerikler.Count(d => d.Durum == "Izlendi" && d.KullaniciId == int.Parse(kullaniciId!))
+                IzlenecekDiziFilmSayisi = _context.Icerikler.Count(d => d.Durum == "Ýzlenecek" && d.KullaniciId == int.Parse(kullaniciId!)),
+                IzlenenDiziFilmSayisi = _context.Icerikler.Count(d => d.Durum == "Ýzlendi" && d.KullaniciId == int.Parse(kullaniciId!))
             };
 
             return View(model);

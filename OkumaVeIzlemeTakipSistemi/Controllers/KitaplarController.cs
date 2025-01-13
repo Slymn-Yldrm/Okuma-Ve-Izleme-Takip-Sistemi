@@ -65,6 +65,19 @@ namespace OkumaVeIzlemeTakipSistemi.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
+        public IActionResult DurumGuncelle(int id, string durum)
+        {
+            var kitap = _context.Icerikler.FirstOrDefault(i => i.Id == id);
+            if (kitap != null)
+            {
+                kitap.Durum = durum;
+                _context.SaveChanges();
+            }
+            return RedirectToAction("Index");
+        }
+
+
 
     }
 }
