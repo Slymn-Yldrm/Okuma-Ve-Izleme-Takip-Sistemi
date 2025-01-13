@@ -7,19 +7,19 @@
     <h1 class="text-center">Hoşgeldiniz</h1>
     <p class="text-center">İçeriklerinizi takip edin</p>
 
-    <div class="row">
-        <div class="col-md-3">
+    <div class="row w-full vh-100">
+        <div class="col-md-6">
             <div class="card text-white bg-primary mb-3">
                 <div class="card-header">Kitaplar</div>
                 <div class="card-body">
                     <h5 class="card-title">Okunacak Kitaplar: @Model.OkunacakKitapSayisi</h5>
                     <h5 class="card-title">Okunan Kitaplar: @Model.OkunanKitapSayisi</h5>
-                    <a href="@Url.Action("Index", "Kitap")" class="btn btn-light">Tüm Kitaplar</a>
+                    <a href="@Url.Action("Index", "Kitaplar")" class="btn btn-light">Tüm Kitaplar</a>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-6">
             <div class="card text-white bg-success mb-3">
                 <div class="card-header">Dizi-Film</div>
                 <div class="card-body">
