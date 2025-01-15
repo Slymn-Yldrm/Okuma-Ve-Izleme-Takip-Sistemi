@@ -67,5 +67,16 @@ namespace OkumaVeIzlemeTakipSistemi.Controllers
             ViewBag.Hata = "Kullanıcı adı veya şifre hatalı.";
             return View();
         }
+
+        [HttpGet]
+        public IActionResult CikisYap()
+        {
+            if (Request.Cookies.ContainsKey("KullaniciId"))
+            {
+                Response.Cookies.Delete("KullaniciId");
+            }
+
+            return RedirectToAction("GirisYap");
+        }
     }
 }
