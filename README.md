@@ -38,6 +38,11 @@ Okuma ve İzleme Takip Sistemi, kullanıcıların okudukları kitapları ve izle
   - DiziFilm/Index.cshtml: Dizi/film içeriklerinin görüntülenmesi ve yönetimi.
   - Kullanici/KayitOl.cshtml ve Kullanici/GirisYap.cshtml: Kullanıcı kayıt ve giriş ekranları.
 
+## Tanıtım Videosu
+https://github.com/user-attachments/assets/f9db3e7c-2e8c-4c45-9986-865d1b5289c2
+
+
+
 ## Ekran Görüntüleri
 
 | Görsel                | Açıklama                      |
